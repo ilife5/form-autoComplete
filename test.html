@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div action="" id="frm">
+    <label>input：
+        <input type="text" name="ipt"/>
+    </label>
+    <br/>
+    <label>textarea：
+        <textarea name="txt" id="" cols="30" rows="10"></textarea>
+    </label>
+    <br/>
+    <label for="grade1">radio1
+        <input type="radio" value="1" name="grade" id="grade1"/>
+    </label>
+    <label for="grade2">radio2
+        <input type="radio" value="2" name="grade" id="grade2"/>
+    </label>
+    <br/>
+    <label>checkbox1
+        <input type="checkbox" name="type" value="3"/>
+    </label>
+    <label>checkbox2
+        <input type="checkbox" name="type" value="4"/>
+    </label>
+    <label>checkbox3
+        <input type="checkbox" name="type" value="5"/>
+    </label>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/json2/json2.js"></script>
+<script src="bower_components/store/store.js"></script>
+<script src="fac.jquery.js"></script>
+<script>
+    $('#frm').formAutoComplete();
+</script>
+</body>
+</html>

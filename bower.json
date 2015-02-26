@@ -1,0 +1,28 @@
+{
+  "name": "form-autoComplete",
+  "version": "0.0.1",
+  "authors": [
+    "ilife5 <ilife5@qq.com>"
+  ],
+  "description": "Use store.js for sayt",
+  "main": "fa.jquery.js",
+  "keywords": [
+    "form",
+    "autocomplete",
+    "jquery"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "store": "https://github.com/marcuswestin/store.js.git#master",
+    "jquery": ">=1.5",
+    "json2": "*"
+  }
+}
